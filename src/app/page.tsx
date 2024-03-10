@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -20,6 +21,9 @@ export default function Home() {
               Peek at our spiffy new website transformation! Brace yourself for
               the grand reopening - it&apos;s going to be legendary!
             </p>
+            <Link href="www.growxth.com" target="_blank">
+              <p className="hover:text-gray-700">www.growxth.com</p>
+            </Link>
           </div>
         </div>
       </div>
