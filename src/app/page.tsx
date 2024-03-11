@@ -22,7 +22,9 @@ export default function Home() {
               the grand reopening - it&apos;s going to be legendary!
             </p>
             <Link href="https://growxth.com" target="_blank">
-              <p className="hover:text-gray-700">www.growxth.com</p>
+              <p className="text-[14px] mt-2 hover:text-gray-700">
+                visit - www.growxth.com
+              </p>
             </Link>
           </div>
         </div>
